@@ -53,7 +53,8 @@ int main()
 			cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
 			break;
 
-		
+		case 4:
+			break;
 		}
 	}
 }

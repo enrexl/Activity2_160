@@ -16,5 +16,6 @@ float LuasSegitiga(float a, float t) {
 
 int main()
 {
-  
+	float panjang, lebar, jejari, alas, tinggi;
+	int pilihan
 }

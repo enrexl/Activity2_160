@@ -29,5 +29,15 @@ int main()
 		cout << "4. Exit" << endl;
 		cout << "Masukkan Pilihan (1/2/3/4)";
 		cin >> pilihan;
+
+		switch (pilihan) {
+		case 1:
+			cout << "Masukan Panjang = ";
+			cin >> panjang;
+			cout << "Masukan Lebar = ";
+			cin >> lebar;
+			cout << "Luas Persegi Panjang = " << LuasPersegi(panjang, lebar);
+			break;
+		}
 	}
 }

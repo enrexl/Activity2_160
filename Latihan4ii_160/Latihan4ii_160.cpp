@@ -9,7 +9,11 @@ int main()
     for (int i = 0; i < 5; i++) {
         cout << "Data ke - " << i << ": ";
         cin >> a[i];
+    }
 
+    cout << "Membaca Array" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "Data ke - " << i << ": " << a[i] << endl;
     }
 }
 

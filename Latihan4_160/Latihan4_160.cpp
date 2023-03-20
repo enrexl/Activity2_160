@@ -55,6 +55,10 @@ int main()
 
 		case 4:
 			break;
+
+		default :
+			cout << "PILIHAN ANDA TIDAK TERSEDIA." << endl;
+
 		}
 	}
 }

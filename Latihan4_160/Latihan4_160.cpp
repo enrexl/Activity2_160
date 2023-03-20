@@ -39,13 +39,21 @@ int main()
 			cout << "Luas Persegi Panjang = " << LuasPersegi(panjang, lebar);
 			break;
 
-		case 2 :
+		case 2:
 			cout << "Masukkan Jari - Jari = ";
 			cin >> jejari;
 			cout << "Luas Lingkaran = " << LuasLingkaran(jejari);
 			break;
 
+		case 3:
+			cout << "Masukkan Alas = ";
+			cin >> alas;
+			cout << "Masukkan Tinggi = ";
+			cin >> tinggi;
+			cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
+			break;
 
+		
 		}
 	}
 }

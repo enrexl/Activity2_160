@@ -57,7 +57,7 @@ int main()
 			break;
 
 		default :
-			cout << "PILIHAN ANDA TIDAK TERSEDIA." << endl;
+			cout << "\n=== PILIHAN ANDA TIDAK TERSEDIA. ===" << endl;
 			break;
 		}
 	} while (pilihan != 4);
